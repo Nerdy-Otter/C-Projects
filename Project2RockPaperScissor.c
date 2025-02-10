@@ -1,3 +1,5 @@
+/*Project name: Rock, Paper and Scissors Game
+Author: K. Rishi  (Nerdy-Otter)*/
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
