@@ -1,0 +1,53 @@
+printf("Choose 0 for Rock , 1 for paper , 2 for Scissors \n");
+    scanf("%d", &player);
+    printf("%d", computer);
+
+    if (player == 0 && computer == 0)
+    {
+        printf("Its a draw!\n");
+        printf("Score is %d : %d",pscore,cscore);
+    }
+    if (player == 0 && computer == 1)
+    {
+        printf("You lost this round, Paper>Rock\n ");
+        cscore++;
+        printf("Score is %d : %d",pscore,cscore);
+    }
+    if (player == 0 && computer == 2)
+    {
+        printf("You win! Rock>Scissors\n");
+        pscore++;
+        printf("Score is %d : %d",pscore,cscore);
+    }
+    if (player == 1 && computer == 0)
+    {
+        printf("You win! Paper>Rock\n");
+        pscore++;
+        printf("Score is %d : %d",pscore,cscore);
+    }
+    if (player ==1 &&computer == 1)
+    {
+        printf("Its a draw! Both chose paper\n")
+        printf("Score is %d : %d",pscore,cscore);
+    }
+    if (player ==1 &&computer == 2)
+    {
+        printf("You lose! Scissors>Paper\n");
+        cscore++;
+        printf("Score is %d : %d",pscore,cscore);
+    }
+    if (player == 2 && computer == 0)
+    {
+        printf("You lose! Rock>Paper\n");
+        cscore++;
+        printf("Score is %d : %d",pscore,cscore);
+    }
+    if (player == 2 && computer==1){
+        printf("You win! Scissors>Paper\n");
+        pscore++;
+        printf("Score is %d : %d",pscore,cscore);
+    }
+    if (player == 2&& computer==2){
+        printf("Its a draw, Both chose Scissors\n");
+        printf("Score is %d : %d",pscore,cscore);
+    }
