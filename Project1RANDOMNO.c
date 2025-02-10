@@ -1,3 +1,5 @@
+/*Project Name: Guess The Random Number
+Author: K. Rishi (Nerdy-Otter)*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
