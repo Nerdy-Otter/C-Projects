@@ -19,7 +19,7 @@ int main()
         scanf("%d", &guessed);
         if (guessed > random_number)
         {
-            printf("LOWER PLEASE!\n");
+            printf("LOWER PLEASE!\n");w
         }
         else if (guessed < random_number)
         {
